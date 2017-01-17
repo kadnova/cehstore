@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Карточка товара</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+	<!--jquery-->
+	<script type="text/javascript" src="js/app.min.js"></script>
+	<!--Разные скрипты-->
+	<!--	<script type="text/javascript" src="js/script.js"></script>-->
+</head>
+
+<body>
+	<!-- START HEADER -->
+	<header class="header">
+		<div class="header_top">
+			<div class="wrapper">
+				<div class="header_address"> <img src="img/address-top.png" alt="">
+					<p><a href="https://goo.gl/maps/Uda4LWXRoSG2">г. Москва, Каширское шоссе, д. 16</a></p>
+				</div>
+				<div class="header_enter"> <a href="#" class="enter">Войти</a> <a href="registration.html" class="reg">Регистрация</a> </div>
+			</div>
+		</div>
+		<div class="header_inform">
+			<div class="wrapper">
+				<div class="logo">
+					<a href="index.html"> <img src="img/logo.png" alt=""> </a>
+					<p>Оптовый магазин стильной одежды от Российского производителя</p>
+				</div>
+				<div class="header_time">
+					<ul>
+						<li class="email"> <img src="img/header-email.png" alt="">
+							<p><a href="mailto:shop@tseh.org">shop@tseh.org</a></p>
+						</li>
+						<li class="time"> <img src="img/header-time.png" alt="">
+							<p>Пн-Сб 9:00-18:00</p>
+						</li>
+					</ul>
+				</div>
+				<div class="header_call"> <img src="img/header-call.png" alt=""> <span>+7(499) 394-75-55 </span>
+					<button>Заказать звонок</button>
+				</div>
+				<div class="header_basket">
+					<a href="#" class="basket"> <span>10</span> <span class="basket_image"></span> </a>
+					<div class="inform"> <span>Корзина</span>
+						<p>Сумма: 20600 руб.</p> <a href="#">Оформить заказ</a> </div>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="wrapper">
+				<div class="menu_open"><img src="img/menu-open.png"></div>
+				<ul>
+					<li> <a href="index.html">ГЛАВНАЯ</a> </li>
+					<li> <a href="catalog.html">КАТАЛОГ</a> </li>
+					<li> <a href="about-us.html">О НАС</a> </li>
+					<li> <a href="checkout.html">ОФОРМЛЕНИЕ ЗАКАЗА</a> </li>
+					<li> <a href="partnership.html">СОТРУДНИЧЕСТВО</a> </li>
+					<li> <a href="contacts.html">КОНТАКТЫ</a> </li>
+				</ul>
+				<div class="search_header">
+					<input type="text" placeholder="Поиск...">
+					<input type="submit"> </div>
+			</div>
+		</div>
+	</header>
+	<!-- END HEADER -->
+	<!-- START CONTENT -->
+	<div class="content">
+		<div class="wrapper">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">Женская одежда</a></li>
+					<li><a href="#">Брюки</a></li>
+					<li><a href="#">Модель 015B4</a></li>
+				</ul>
+			</div>
+			<div class="main-content product-page">
+				<div class='product-page_top'>
+					<div class="product_images">
+
+						<div id="second-slider" class="my-container">
+							<div class="slider-nav-container">
+
+								<div class="slider-nav slider-nav-card">
+									<div class="slide-link slide-link-card">
+										<img src="img/card1.jpg" alt="">
+									</div>
+									<div class="slide-link slide-link-card">
+										<img src="img/card2.jpg" alt="">
+									</div>
+									<div class="slide-video slide-link slide-link-card">
+										<img src="img/card3.jpg" alt="">
+									</div>
+								</div>
+
+							</div>
+							<div class="slider-container ">
+								<div class="sliderr slider-card">
+									<div class="featured-slide featured-slide-card">
+										<a href='img/card1.jpg'><img src="img/card1.jpg" alt=""></a>
+									</div>
+									<div class="featured-slide featured-slide-card">
+										<a href='img/card2.jpg'><img src="img/card2.jpg" alt=""></a>
+									</div>
+									<div class="featured-slide featured-slide-card">
+										<a href='img/card3.jpg'><img src="img/card3.jpg" alt=""></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="product_details">
+						<div class="product-item_detail">
+							<div class='mob-top'>
+								<h1 class='title caps'>Брюки модель 016B1</h1>
+								<div class="meta">
+									<div class="left">
+										<span class='collection'><a href='#'>Коллекция 2016</a></span>
+									</div>
+									<div class="right">
+
+										<div class="item_rating">
+											<div class="star star_filled"></div>
+											<div class="star star_filled"></div>
+											<div class="star star_filled"></div>
+											<div class="star "></div>
+											<div class="star "></div>
+										</div>
+										<a href="#reviews-block"> 2 отзыва</a>
+									</div>
+									<div class='clear'></div>
+								</div>
+							</div>
+							<div class="product-item_choice">
+								<div class="product-item_color-choice">
+									Цвет:
+									<form class="product-item_color-list">
+										<input name='color' id='color1' type="radio">
+										<label class="color" for='color1' style='background: #dbefee;' href="javascript:void(0)"></label>
+
+										<input name='color' id='color2' type="radio">
+										<label for='color2' class="color" style='background: #f49e9c;' href="javascript:void(0)"></label>
+
+										<input name='color' id='color3' type="radio">
+										<label for='color3' class="color" style='background: #fff99d;' href="javascript:void(0)"></label>
+
+									</form>
+								</div>
+								<div class="product-item_size-choice">
+									Размер:
+
+									<form class="product-item_size-list">
+
+										<input name='size' id='size42' type="radio">
+										<label class="size" for='size42' href="javascript:void(0)">42</label>
+
+										<input name='size' id='size44' type="radio">
+										<label class="size" for='size44' href="javascript:void(0)">44</label>
+
+										<input name='size' id='size46' type="radio">
+										<label for='size46' class="size" href="javascript:void(0)">46</label>
+
+										<input name='size' id='size48' type="radio">
+										<label for='size48' class="size" href="javascript:void(0)">48</label>
+
+									</form>
+								</div>
+
+								<div class="product-item_size"><span class='open-table'>Таблица размеров</span>
+									<div class="popup">
+										<div class="cls"></div>
+										<div class="inner">
+											<h2>Определить размер одежды </h2>
+											<div class="table-responsive">
+												<table width="90%" class="size" cellspacing="0">
+													<thead>
+														<tr>
+															<td width="16%">Обхват груди в см</td>
+															<td width="16%">Обхват талии в см</td>
+															<td width="16%">Обхват бедер в см</td>
+															<td width="16%">Рост в см</td>
+															<td width="16%">Российский размер</td>
+															<td width="16%">Размер для заказа</td>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>80</td>
+															<td>56</td>
+															<td>86</td>
+															<td>164-170</td>
+															<td>40</td>
+															<td>34</td>
+														</tr>
+														<tr>
+															<td>84</td>
+															<td>63</td>
+															<td>90</td>
+															<td>164-170</td>
+															<td>42</td>
+															<td>36</td>
+														</tr>
+														<tr>
+															<td>88</td>
+															<td>67</td>
+															<td>94</td>
+															<td>164-170</td>
+															<td>44</td>
+															<td>38</td>
+														</tr>
+														<tr>
+															<td>92</td>
+															<td>71</td>
+															<td>98</td>
+															<td>164-170</td>
+															<td>46</td>
+															<td>40</td>
+														</tr>
+														<tr>
+															<td>96</td>
+															<td>75</td>
+															<td>102</td>
+															<td>164-170</td>
+															<td>48</td>
+															<td>42</td>
+														</tr>
+														<tr>
+															<td>100</td>
+															<td>79</td>
+															<td>106</td>
+															<td>164-170</td>
+															<td>50</td>
+															<td>44</td>
+														</tr>
+														<tr>
+															<td>104</td>
+															<td>83</td>
+															<td>110</td>
+															<td>164-170</td>
+															<td>52</td>
+															<td>46</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product-item_addtocart">
+									<div class="product-item__info">
+										<div class="product-item__buttons vam">
+											Цена: <span class='price'><span>2170</span> руб.</span>
+											<a href="javascript:void(0);" class="btn product-item_add-to-cart"><img src='img/add-cart.png'>В корзину</a>
+											<div class='wholesale-price'>
+												<span class='name'>Оптовая цена</span>
+												<div><span class='price wholesale'><span>1100</span> руб.</span>
+												</div>
+											</div>
+											<div class="have-no">Товара нет в наличии, поставка в течение 14 дней.</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="tabs tab-content">
+									<ul class="tab-name tabs__caption">
+										<li class="name active">Описание</li>
+										<li class="name">Состав и уход</li>
+										<li class="name">Условия покупки</li>
+										<li class="name">Оплата и доставка</li>
+									</ul>
+									<div class="tabs__content active">
+										<p>Стильные и элегантные полуприлегающие брюки из эластичной ткани, прямые к низу. Застежка на тесьму – молнию и 2 пуговицы. По периметру пояса находятся шлевки. Рост 170 см.</p>
+										<p>Прямые брюки, слегка зауженные книзу, удивительно красивого цвета ментола вдохнут летнего настроения в трудовые будни.
+											<br>Широкая кокетка, украшенная двумя маленькими золотыми пуговицами, прекрасно сидит на линии талии и подчеркивает все прелести женской фигуры. </p>
+									</div>
+									<div class="tabs__content">
+										<div>Состав ткани: 70% вискоза, 25% нейлон, 5% спандекс</div>
+
+										<div>Уход за брюками на странице <a href="http://cehstore.ru/material.php">«Ткани и уход за ними»</a></div>
+									</div>
+									<div class="tabs__content">
+										<p>При отсутствии товара в наличии, мы гарантируем вам поставку необходимой продукции под заказ, в течении 14 дней, при предоплате 30% от стоимости заказа.</p>
+										<p><b>Минимальная партия оптовой закупки составляет 20 000 руб.</b></p>
+										<p>Закупка товара осуществляется в свободном наборе: без размерных рядов.</p>
+										<p>Получить более подробную информацию можно в разделе <a href="http://cehstore.ru/sale.php">Оформление заказа</a> или связаться с нами по электронной почте: info@tseh.org или позвонить по телефону: +7 (495) 222-05-43.</p>
+									</div>
+									<div class="tabs__content">
+										<p>Стоимость доставки по Москве и ближнему Подмосковью до двери офиса или магазина составляет 500 рублей. </p>
+
+										<p>Так же возможен самовывоз товара, с предварительным уведомлением по электронной почте или телефону менеджера +7 (499) 394-75-55 за 1 рабочий день. <b>Без предварительного уведомления мы не гарантируем Вам наличие товара на складе. </b></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="clear: both"></div>
+
+					<div class="nav" style="margin-top: 30px">
+						<div class="left">
+							<a href="catalog.html">Вернуться в каталог</a>
+						</div>
+
+					</div>
+					<div class="product_socials">
+						<p>Поделиться:</p>
+						<ul>
+							<li>
+								<a class="vk" href="#"></a>
+							</li>
+							<li>
+								<a class="tw" href="#"></a>
+							</li>
+							<li>
+								<a class="fb" href="#"></a>
+							</li>
+
+							<li>
+								<a class="ok" href="#"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="same-slider" class="slider owl-carousel owl-theme">
+					<div class="item">
+						<div class="item_image hit">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_image">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_image">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_image">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_image hit">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_image hit">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_image hit">
+							<a href="#">
+								<img src="img/slider-photo.jpg" alt="">
+							</a>
+						</div>
+						<p class="item_name"><a href="#">Брюки синие модель 015B4</a></p>
+						<div class="item_price">
+							<span class="price">2170</span>
+							<span>руб.</span>
+						</div>
+					</div>
+
+				</div>
+				<section class="reviews" id="reviews-block">
+					<div class="tabs tab-content">
+						<ul class="tab-name tabs__caption">
+							<li class="name active">Отзывы</li>
+							<li class="name">Вопросы</li>
+						</ul>
+						<div class="tabs__content active">
+							<ul class="reviews__list">
+								<li class="reviews__list-item">
+									<div class="reviews__user">
+										<a href="#">
+											<div class="reviews__name">Марина</div>
+										</a>
+									</div>
+									<div class="rewiews_rating item_rating">
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+										<div class="star "></div>
+									</div>
+									<div class="reviews__date"><span class="date">25.06.2016</span></div>
+									<div class="reviews__text">
+										<p>Недавно и я приобрела эти "штанишки" для повседневной носки. Размерный ряд представлен довольно широкий, женщины разных комплекций могут подобрать для себя нужный размер. Сидят довольно хорошо</p>
+									</div>
+
+								</li>
+								<li class="reviews__list-item">
+									<div class="reviews__user">
+										<a href="#">
+											<div class="reviews__name">Валерия</div>
+										</a>
+									</div>
+									<div class="rewiews_rating item_rating">
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+										<div class="star star_filled"></div>
+									</div>
+									<div class="reviews__date"><span class="date">25.06.2016</span></div>
+									<div class="reviews__text">
+										<p>Очень боялась промахнуться с размером. По таблице размеров мне подходил 48 размер, а в реальности я влезла в 46. Сшиты аккуратно, ни одной посторонней нитки не нашла. Швы ровные. Ткань приятная на ощупь. Смотрится тоже просто замечательно :) </p>
+									</div>
+
+								</li>
+							</ul>
+						</div>
+						<div class="tabs__content">
+							<ul class="reviews__list questions__list">
+								<li class="reviews__list-item">
+									<div class="reviews__user">
+										<a href="#">
+											<div class="reviews__name">Рината</div>
+										</a>
+									</div>
+									<div class="reviews__date"><span class="date">25.06.2016</span></div>
+									<div class="reviews__text">
+										<p>Несколько пар разных цветов будут считаться по оптовой цене? Если в сумме их будет 10 штук</p>
+									</div>
+
+								</li>
+								<li class="reviews__list-item">
+									<div class="reviews__user">
+										<a href="#">
+											<div class="reviews__name">Валерия</div>
+										</a>
+									</div>
+
+									<div class="reviews__date"><span class="date">27.06.2016</span></div>
+									<div class="reviews__text">
+										<p>Несколько пар разных цветов будут считаться по оптовой цене? Если в сумме их будет 10 штук</p>
+									</div>
+
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tabs tab-content reviews_form">
+						<ul class="tab-name tabs__caption">
+							<li class="name active">Оставить отзыв</li>
+							<li class="name">Задать вопрос</li>
+						</ul>
+						<div class="tabs__content active">
+							<form>
+
+								<div class='form_block'>
+									<label for='reviews_name'>Имя</label>
+									<input type="text" name="reviews_name" id='reviews_name'>
+								</div>
+								<div class='form_block'>
+									<label for='reviews_email'>E-mail</label>
+									<input type='email' name="reviews_email" id='reviews_email'>
+									<input class='subscr' id='sub_yes' type='checkbox'>
+									<label class='subscr' for='sub_yes'>получать рассылку</label>
+								</div>
+								<label for='review'>Отзыв</label>
+								<textarea name="review" id='review'></textarea>
+								<div class="rating" data-vote="0">
+									<p>Ваша оценка</p>
+
+									<div class="star-rate">
+
+										<span class="full" data-value="1"></span>
+										<span class="half" data-value="0.5"></span>
+										<span class="selected"></span>
+
+									</div>
+
+									<div class="star-rate">
+
+										<span class="full" data-value="2"></span>
+										<span class="half" data-value="1.5"></span>
+										<span class="selected"></span>
+
+									</div>
+
+									<div class="star-rate">
+
+										<span class="full" data-value="3"></span>
+										<span class="half" data-value="2.5"></span>
+										<span class="selected"></span>
+
+									</div>
+
+									<div class="star-rate">
+
+										<span class="full" data-value="4"></span>
+										<span class="half" data-value="3.5"></span>
+										<span class="selected"></span>
+
+									</div>
+
+									<div class="star-rate">
+
+										<span class="full" data-value="5"></span>
+										<span class="half" data-value="4.5"></span>
+										<span class="selected"></span>
+
+									</div>
+
+								</div>
+								<button class='btn' type="submit">Оставить отзыв</button>
+								<div class='clear'></div>
+
+							</form>
+						</div>
+						<div class="tabs__content">
+							<form>
+
+								<div class='form_block'>
+									<label for='quest_name'>Имя</label>
+									<input type="text" name="quest_name" id='quest_name'>
+								</div>
+								<div class='form_block'>
+									<label for='quest_email'>E-mail</label>
+									<input type='email' name="quest_email" id='quest_email'>
+								</div>
+								<label for='quest'>Вопрос</label>
+								<textarea name="quest" id='quest'></textarea>
+								<button class='btn' type="submit">Отправить</button>
+								<div class='clear'></div>
+							</form>
+						</div>
+					</div>
+
+				</section>
+				<section class='advantages'>
+					<p class='advantages_title'>ПОЧЕМУ МЫ?</p>
+					<div class="advantages_container">
+						<ul>
+							<li style="opacity: 1;">
+								<img src="img/advantages-1.png" class="advantages_image" alt="">
+								<span class="advantages_text">Производство <br> полного цикла</span>
+							</li>
+							<li style="opacity: 1;">
+								<img src="img/advantages-2.png" class="advantages_image" alt="">
+								<span class="advantages_text">Одежда высокого<br> качества</span>
+							</li>
+							<li style="opacity: 1;">
+								<img src="img/advantages-3.png" class="advantages_image" alt="">
+								<span class="advantages_text">Посадка<br> по фигуре</span>
+							</li>
+							<li style="opacity: 1;">
+								<img src="img/advantages-4.png" class="advantages_image" alt="">
+								<span class="advantages_text">Сертификация<br> всей продукции</span>
+							</li>
+							<li style="opacity: 1;">
+								<img src="img/advantages-5.png" class="advantages_image" alt="">
+								<span class="advantages_text">Конкурентные<br> цены</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<div class="content_row discount">
+					<div class="wrapper">
+						<p class="title line"> Акции и скидки </p>
+						<div id="discount-slider" class="slider owl-carousel owl-theme">
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+							<div class="item">
+								<div class="item_image">
+									<a href="#">
+										<img src="img/slider-photo2.jpg" alt="">
+									</a>
+									<div class="item_cart"></div>
+									<div class="item_discount">-20%</div>
+								</div>
+								<p class="item_name"><a href="#">Брюки серые модель 015B1</a></p>
+								<div class="item_collection">
+									<a href="#">Коллекция 2016</a>
+								</div>
+								<div class="item_rating">
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star star_filled"></div>
+									<div class="star "></div>
+									<div class="star "></div>
+								</div>
+								<div class="item_price">
+									<span class="price">3250</span>
+									<span>руб.</span>
+									<span class="price_old">
+							<span class="price">4520</span>
+									<span>руб.</span>
+									</span>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer_left">
+				<a href="index.html"><img class="footer_logo" src="img/logo-footer.png" alt=""></a>
+				<p>Оптовый магазин стильной одежды от Российского производителя</p>
+			</div>
+			<div class="footer_right">
+				<div class="footer_block">
+					<p class="footer_title caps">Покупателям</p>
+					<ul>
+						<li><a href="#">Оформление заказа</a></li>
+						<li><a href="#">Сотрудничество</a></li>
+						<li><a href="#">Способы оплаты</a></li>
+						<li><a href="#">Самовывоз</a></li>
+						<li><a href="#">Доставка и возврат</a></li>
+					</ul>
+				</div>
+				<div class="footer_block">
+					<p class="footer_title caps">Каталог товаров</p>
+					<ul>
+						<li><a href="#">Женская одежда</a></li>
+						<li><a href="#">Спортивная одежда</a></li>
+						<li><a href="#">Акции и скидки</a></li>
+					</ul>
+				</div>
+				<div class="footer_block">
+					<p class="footer_title caps">О компании</p>
+					<ul>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Новости</a></li>
+					</ul>
+				</div>
+				<div class="footer_block large">
+					<p class="footer_title caps">Контакты</p>
+					<ul class="footer_contacts">
+						<li class="footer_phone">
+							<a href="tel:+74993947555"> <img src="img/footer-call.png" alt=""> +7(499)394-75-55 </a>
+						</li>
+						<li class="footer_email">
+							<a href="mailto:shop@tsen.org"> <img src="img/footer-email.png" alt=""> shop@tsen.org </a>
+						</li>
+						<li class="footer_time"> <img src="img/footer-time.png" alt=""> Без выходных с 9:00 до 18:00 </li>
+						<li class="footer_address">
+							<a href="https://goo.gl/maps/Uda4LWXRoSG2"><img src="img/footer-address.png" alt=""> г.Москва, Каширское шоссе, д.16</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<ul class="footer_socials">
+					<li>
+						<a class="tw" href="#"></a>
+					</li>
+					<li>
+						<a class="fb" href="#"></a>
+					</li>
+					<li>
+						<a class="vk" href="#"></a>
+					</li>
+				</ul>
+				<p class="copyright"> © Интернет-магазин одежды ЦЭХ, 2016</p>
+			</div>
+		</div>
+	</footer>
+	<div class="overflow"></div>
+	<div class="form_enter form">
+		<div class="form_title">
+			<p>Вход в личный кабинет</p> <span class="form_close"></span> </div>
+		<div class="form_content">
+			<form>
+				<label> Имя </label>
+				<input class="form_field" type="text">
+				<label> Пароль </label>
+				<input class="form_field" type="password">
+				<button class="form_button" type="submit">Войти</button>
+			</form>
+		</div>
+	</div>
+	<div class="form_callback form">
+		<div class="form_title">
+			<p>Заказать обратный звонок</p> <span class="form_close"></span> </div>
+		<div class="form_content">
+			<form>
+				<label> Имя </label>
+				<input class="form_field" type="text">
+				<label> Телефон </label>
+				<input class="form_field" type="password">
+				<button class="form_button" type="submit">Перезвоните мне</button>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

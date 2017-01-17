@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Настройки пользователя</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--jquery-->
+	<script type="text/javascript" src="js/app.min.js"></script>
+	<!--Разные скрипты-->
+	<!--	<script type="text/javascript" src="js/script.js"></script>-->
+
+</head>
+
+<body>
+	<!-- START HEADER -->
+	<header class="header">
+		<div class="header_top">
+			<div class="wrapper">
+				<div class="header_address">
+					<img src="img/address-top.png" alt="">
+					<p><a href="https://goo.gl/maps/Uda4LWXRoSG2">г. Москва, Каширское шоссе, д. 16</a></p>
+				</div>
+				<div class="header_enter">
+					<a href="#" class="enter">Войти</a>
+					<a href="registration.html" class="reg">Регистрация</a>
+				</div>
+			</div>
+		</div>
+		<div class="header_inform">
+			<div class="wrapper">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="">
+					</a>
+					<p>Оптовый магазин стильной одежды от Российского производителя</p>
+				</div>
+				<div class="header_time">
+					<ul>
+						<li class="email">
+							<img src="img/header-email.png" alt="">
+							<p><a href="mailto:shop@tseh.org">shop@tseh.org</a></p>
+						</li>
+						<li class="time">
+							<img src="img/header-time.png" alt="">
+							<p>Пн-Сб 9:00-18:00</p>
+						</li>
+					</ul>
+				</div>
+				<div class="header_call">
+					<img src="img/header-call.png" alt="">
+					<span>+7(499) 394-75-55 </span>
+					<button>Заказать звонок</button>
+				</div>
+				<div class="header_basket">
+					<a href="#" class="basket">
+						<span>10</span>
+						<span class="basket_image"></span>
+					</a>
+					<div class="inform">
+						<span>Корзина</span>
+						<p>Сумма: 20600 руб.</p>
+						<a href="#">Оформить заказ</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="menu">
+			<div class="wrapper">
+				<div class="menu_open"><img src="img/menu-open.png"></div>
+				<ul>
+					<li>
+						<a href="index.html">ГЛАВНАЯ</a>
+					</li>
+					<li>
+						<a href="catalog.html">КАТАЛОГ</a>
+					</li>
+					<li>
+						<a href="about-us.html">О НАС</a>
+					</li>
+					<li>
+						<a href="checkout.html">ОФОРМЛЕНИЕ ЗАКАЗА</a>
+					</li>
+					<li>
+						<a href="partnership.html">СОТРУДНИЧЕСТВО</a>
+					</li>
+					<li>
+						<a href="contacts.html">КОНТАКТЫ</a>
+					</li>
+				</ul>
+				<div class="search_header">
+					<input type="text" placeholder="Поиск...">
+					<input type="submit">
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- END HEADER -->
+	<!-- START CONTENT -->
+	<div class="content">
+		<div class="wrapper">
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="personal-cab.html">Мой кабинет</a></li>
+					<li><a href="#">Настройки пользователя</a></li>
+				</ul>
+			</div>
+			<aside class="sidebar">
+				<p class="sidebar_title caps">Каталог</p>
+				<div class="sidebar_sitemap">
+					<ul>
+						<li class="close">
+							<a class="sitemap_section-name caps" href="#">Женская одежда</a>
+							<ul>
+								<li>
+									<a href="#">Брюки</a>
+								</li>
+								<li>
+									<a href="#">Юбки</a>
+								</li>
+								<li>
+									<a href="#">Платья</a>
+								</li>
+								<li>
+									<a href="#">Блузы</a>
+								</li>
+							</ul>
+						</li>
+						<li class="close">
+							<a class="sitemap_section-name caps" href="#">Акции и скидки</a>
+							<ul>
+								<li>
+									<a href="#">Брюки</a>
+								</li>
+								<li>
+									<a href="#">Юбки</a>
+								</li>
+								<li>
+									<a href="#">Платья</a>
+								</li>
+								<li>
+									<a href="#">Блузы</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="sidebar_banner">
+					<p class="title title_normal caps"> осень 2016</p>
+					<a class="btn " href="#">Подробнее</a>
+				</div>
+
+
+			</aside>
+			<div class="main-content">
+				<div class="registration_page">
+
+					<h1>Личные данные</h1>
+					<form method="post" action="" name="bform" class="reg_form">
+
+						<label for="name_field">Имя</label>
+						<input id="name_field" type="text" name="USER_NAME" maxlength="50" value="">
+						<label for="surname_field">Фамилия</label>
+						<input id="surname_field" type="text" name="USER_SURNAME" maxlength="50" value="">
+						<label for="midname_field">Отчество</label>
+						<input id="midname_field" type="text" name="USER_MIDNAME" maxlength="50" value="">
+						<h1>Пароль</h1>
+						<label for="pass_field">Новый пароль</label>
+						<input id="pass_field" type="password" name="USER_PASSWORD" maxlength="50" value="">
+						<label for="pass-rep_field">Подтверждение пароля</label>
+						<input id="pass-rep_field" type="password" name="USER_REPPASSWORD" maxlength="50" value="">
+
+						<button type="submit" name="save-sett" value="Сохранить настройки профиля" class="btn">Сохранить</button>
+
+					</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer_left">
+				<a href="index.html"><img class="footer_logo" src="img/logo-footer.png" alt=""></a>
+				<p>Оптовый магазин стильной одежды от Российского производителя</p>
+			</div>
+			<div class="footer_right">
+				<div class="footer_block">
+					<p class="footer_title caps">Покупателям</p>
+					<ul>
+						<li><a href="#">Оформление заказа</a></li>
+						<li><a href="#">Сотрудничество</a></li>
+						<li><a href="#">Способы оплаты</a></li>
+						<li><a href="#">Самовывоз</a></li>
+						<li><a href="#">Доставка и возврат</a></li>
+					</ul>
+				</div>
+				<div class="footer_block">
+					<p class="footer_title caps">Каталог товаров</p>
+					<ul>
+						<li><a href="#">Женская одежда</a></li>
+						<li><a href="#">Спортивная одежда</a></li>
+						<li><a href="#">Акции и скидки</a></li>
+					</ul>
+				</div>
+				<div class="footer_block">
+					<p class="footer_title caps">О компании</p>
+					<ul>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Новости</a></li>
+					</ul>
+				</div>
+				<div class="footer_block large">
+					<p class="footer_title caps">Контакты</p>
+					<ul class="footer_contacts">
+						<li class="footer_phone">
+							<a href="tel:+74993947555">
+								<img src="img/footer-call.png" alt=""> +7(499)394-75-55
+							</a>
+						</li>
+						<li class="footer_email">
+							<a href="mailto:shop@tsen.org">
+								<img src="img/footer-email.png" alt=""> shop@tsen.org
+							</a>
+						</li>
+						<li class="footer_time">
+							<img src="img/footer-time.png" alt=""> Без выходных с 9:00 до 18:00
+						</li>
+						<li class="footer_address">
+							<a href="https://goo.gl/maps/Uda4LWXRoSG2"><img src="img/footer-address.png" alt=""> г.Москва, Каширское шоссе, д.16</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<ul class="footer_socials">
+					<li>
+						<a class="tw" href="#"></a>
+					</li>
+					<li>
+						<a class="fb" href="#"></a>
+					</li>
+					<li>
+						<a class="vk" href="#"></a>
+					</li>
+				</ul>
+				<p class="copyright"> © Интернет-магазин одежды ЦЭХ, 2016</p>
+			</div>
+		</div>
+	</footer>
+	<div class="overflow"></div>
+	<div class="form_enter form">
+		<div class="form_title">
+			<p>Вход в личный кабинет</p>
+			<span class="form_close"></span>
+		</div>
+		<div class="form_content">
+			<form>
+				<label>
+					Имя
+				</label>
+				<input class="form_field" type="text">
+				<label>
+					Пароль
+				</label>
+				<input class="form_field" type="password">
+				<button class="form_button" type="submit">Войти</button>
+			</form>
+		</div>
+	</div>
+	<div class="form_callback form">
+		<div class="form_title">
+			<p>Заказать обратный звонок</p>
+			<span class="form_close"></span>
+		</div>
+		<div class="form_content">
+			<form>
+				<label>
+					Имя
+				</label>
+				<input class="form_field" type="text">
+				<label>
+					Телефон
+				</label>
+				<input class="form_field" type="password">
+				<button class="form_button" type="submit">Перезвоните мне</button>
+			</form>
+		</div>
+	</div>
+	<div class="overflow-menu"></div>
+</body>
+
+</html>
